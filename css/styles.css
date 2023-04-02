@@ -1,0 +1,152 @@
+/*Dark grey: #1d232d
+Light grey: #232a34
+Light Blue: #5eacc7
+Purple: #686bd5*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.topContainer {
+    background-color: #EAF6F6; 
+    position: relative;
+    padding: 100px;
+    
+}
+
+.mountainPic {
+    position: relative;
+    top: 100px;
+}
+
+.mainHeading {
+    color: #66BFBF;
+    font-weight: 700;
+    font-size: 4.62rem; /* 16px= 100% = 1em*/
+    margin: 50px auto 0 auto;
+
+}
+
+.mainBio {
+    color: #66BFBF;
+    font-weight: 300;
+    font-size: 1.2rem;
+    color: #66BFBF;
+}
+
+h1 {
+    color: #66BFBF;
+}
+
+h2 {
+    color: #66BFBF;
+    font-size: 2.5rem;
+}
+
+h3 {
+    color: #11999E;
+}
+
+p {
+    color: #404040;
+}
+
+.topCloud {
+    position: absolute;
+    right: 300px;
+    top:50px;
+}
+
+.bottomCloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.profile {
+    margin: 100px auto 30px auto;
+    text-align: center;
+}
+
+.profileDescription {
+    width: 50%;
+    margin: auto auto 100px auto;
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 5px;
+    width: 5%;
+  }
+
+.skills {
+    margin: 100px auto 120px auto;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 50px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.imageWebDevelopment {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.imageGraphicDesigning {
+    width: 25%;
+    float: right;
+    margin-left: 15px;
+}
+
+.contactMe {
+    margin: 100px auto 120px auto;
+}
+
+.bottomContainer {
+    height: 150px;
+    margin: 0;
+    padding-top:70px;
+    background-color: #66BFBF;
+}
+
+.footerLink {
+    color: #11999E;
+    font-size: 1rem;
+    padding: 20px;
+}
+
+.contactButton{
+    background-image: linear-gradient(0deg, #11999E, #40d1d6);
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    padding: 15px 25px 15px 25px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.contactButton:hover {
+    background-image: linear-gradient(0deg, #30e3cb, #2bc4ad);
+}
+
+.footerCopyright {
+    color: white;
+    font-size: 1rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+
